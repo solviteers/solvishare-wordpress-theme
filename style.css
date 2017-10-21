@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Solvishare Supportdesk Child
+ Theme URI:    https://github.com/solviteers/solvishare-supportdesk-child
+ Description:  Solvishare Supportdesk Child theme
+ Author:       Jarich Ypma
+ Author URI:   https://jarich.eu
+ Template:     supportdesk
+ Version:      1.0.0
+ Text Domain:  supportdesk-child
+*/
+
+/* ******************************************************
+LET OP:
+    GEBRUIK GEEN CSS IN DEZE STYLESHEET
+    Uit deze style.css wordt geen enkele styling ingeladen.
+    Zie hiervoor de gecompileerde css in dist/css/app.css
+    De CSS/SASS brondcode wordt beheerd in resources/assets/sass
+****************************************************** */

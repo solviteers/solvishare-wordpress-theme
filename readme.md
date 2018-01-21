@@ -33,3 +33,9 @@ Als de wijzigingen klaar zijn gebruik je `yarn run production` om vervolgens de 
 - style.css, bevat de meta informatie over het child-theme. De css is te vinden in de map dist/css
 - webpack.mix.js, webpack configuratie
 - yarn.lock, de actuele versie van de ingeladen node_modules
+
+## backup maken
+Je kunt een kopie van de code maken met het scp-commando;
+`scp -r username@hostname:/home/username/solvishare.nl/public /Users/macbook-user/doelmap/solvishare`
+Hierin moet je `username@hostname` vervangen door de echte gegevens. De eerste locatie is de bron-locatie. De tweede locatie is de doelmap.
+De vlag `-r` betekent dat je de hele map met bijbehorende structuur wilt kopieren.

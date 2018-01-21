@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Function to initialize the child theme styling
+ */
 function solvishare_theme_enqueue_styles() {
 
     // $handle used in the parent theme when it registers its stylesheet
@@ -17,4 +20,12 @@ function solvishare_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+/**
+ * Attach child theme styling by calling the function
+ */
 add_action( 'wp_enqueue_scripts', 'solvishare_theme_enqueue_styles' );
+
+/**
+ * Load the theme customizer
+ */
+require_once( __DIR__ . '/customizer/customizer-wrapper.php');
